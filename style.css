@@ -1,0 +1,101 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #e0e7ee);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #00012c;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, #440270, #6dd5ed);
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the navigation items */
+    background: #34495e;
+    color: white;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s; /* Add transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+    padding-left: 20px;
+}
+
+/* Contact Section */
+#contact a {
+    color: #2980b9;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #34495e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
